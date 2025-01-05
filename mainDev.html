@@ -1,102 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Skyborn Dev Portal</title>
+        <link href="https://cdn.jsdelivr.net/npm/beercss@3.8.0/dist/cdn/beer.min.css" rel="stylesheet" />
+        <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.8.0/dist/cdn/beer.min.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="ui.application/uiStyle.css" />
+    </head>
+    <body class="dark">
+        <nav class="top left-align">
+            <h5 class="max center-align">Skyborn Dev Portal</h5>
+            <a>
+                <i>home</i>
+                <div>Home</div>
+            </a>
+            <a>
+                <i>code_blocks</i>
+                <div>Developers</div>
+            </a>
+            <a>
+                <i>map</i>
+                <div>RoadMap</div>
+            </a>
+            <a href="https://discord.gg/ugpDpjbDCG">
+                <i class="border circle extra"><img class="responsive overlay_color" src="action.icon/discordClickIcon.png"></i>
+                <div>Discord</div>
+            </a>
+        </nav>
+        <main class="responsive large-padding">
+            <article class="no-padding drop-shadow">
+                <img class="responsive xlarge" src="assets\banner.png">
+                <div class="absolute bottom left right padding bottom-shadow white-text custom_size">
+                <h3 class="bold">Work With Us</h3>
+                  <nav>
+                    <div class="max">
+                        <p>
+                            Welcome to the development page for our Citation III project! Here, we bring the intricate details of this remarkable aircraft to life. Our team is dedicated to crafting a high-fidelity, meticulously detailed 3D model of
+                            the Citation III, showcasing every element with precision. From the aerodynamic fuselage to the finely engineered landing gear, this project highlights our commitment to delivering exceptional quality. Stay with us as we
+                            work towards completing this stunning representation of aviation excellence. Join the journey and explore the art of digital aircraft modeling!
+                        </p>
+                    </div>
+                    <button class="circle transparent">
+                      <i>more_vert</i>
+                    </button>
+                  </nav>
+                </div>
+              </article>
 
-    <title>SkybornDevelopmentPortal</title>
-    <link href="https://cdn.jsdelivr.net/npm/beercss@3.8.0/dist/cdn/beer.min.css" rel="stylesheet">
-    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.8.0/dist/cdn/beer.min.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="ui.application/uiStyle.css">
-        
-</head>
-
-<body>
-     
-    <div id ="overlayGradient"  ></div>
-
-<div class="vingette">
-    <img id = "BannerImage" class="Images" 
-       src="assets/banner.png"  
-     
-    alt="iBaner"> </div>
-    <section id="headermain">
-        <br>
-
-        <div class="title0">
-        <h1 id="TitleMain">SkyBornSimulation Developer</h1>
-        <img class="apptool" src="action.icon/app.png" alt="apps">  
-    </div>
-
-     <div class="headerButtons">
-       <a href="roadmapDev.html">
-        <button id="roadmap" class="mainButton1">RoadMap</button></a> 
-        <a href="journalDev.html">
-        <button id="journal" class="mainButton1">Journal</button></a> 
-    </div>   
-    </section>
-   
-
-    
-
-  <div class="welcomSection">
-   <h1 id = "mainTitle">Be With Us</h1> 
-     <p class="bannerio2">Welcome to the development page for our Citation III project! Here, we bring the intricate details of this remarkable aircraft to life. Our team is dedicated to crafting a high-fidelity, meticulously detailed 3D model of the Citation III, showcasing every element with precision. From the aerodynamic fuselage to the finely engineered landing gear, this project highlights our commitment to delivering exceptional quality.
-        Stay with us as we work towards completing this stunning representation of aviation excellence. Join the journey and explore the art of digital aircraft modeling!</p>
-    </div>
-<br>
-
-<a href="https://discord.gg/ugpDpjbDCG">
-    <img id="discord"
-     src="action.icon/discordClickIcon.png"
-    ></img>
-</a>
-  
-
-<section class="DownSection">
-
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
-            <div id="projects" class="section">
-            <h2>Our Projects</h2>
-            <p>Our flagship project, the Citation III for MSFS, is a meticulously crafted simulation featuring detailed avionics, realistic aerodynamics, and stunning visuals.</p>
-            <ul>
-                <li>Realistic 3D cockpit and exterior model</li>
-                <li>Custom flight dynamics</li>
-                <li>High-fidelity avionics and systems</li>
-                <li>Interactive tutorials and documentation</li>
-            </ul>
-        </div>
-
-        <div id="resources" class="section">
-            <h2>Developer Resources</h2>
-            <p>Access tools, guides, and documentation to assist with development:</p>
-            <ul>
-                <a href="#">SDK Documentation</a></li>
-                <br><a href="#">Modeling Guidelines</a></li>
-                <br><a href="#">Avionics Development Kit</a></li>
-                <br><a href="#">Community Forum</a></li>
-            </ul>
-        </div>
-
-        <div id="contact" class="section">
-            <h2>Contact Us</h2>
-            <p>We'd love to hear from you! Reach out to us with questions, suggestions, or feedback:</p>
-            <p>Email: <a href="mailto:info@skybornsimulations.com">info@skybornsimulations.com</a></p>
-        </div>
-    </div>
-
-    <p>
-        
-
-    </p>
-</section>
-   
-
-</body>
-
+            <section>
+                <div>
+                    <div id="projects">
+                        <h2 class="heavy_text light_purple">Our Projects</h2>
+                        <p>Our flagship project, the Citation III for MSFS, is a meticulously crafted simulation featuring detailed avionics, realistic aerodynamics, and stunning visuals.</p>
+                        <ul>
+                            <li>Realistic 3D cockpit and exterior model</li>
+                            <li>Custom flight dynamics</li>
+                            <li>High-fidelity avionics and systems</li>
+                            <li>Interactive tutorials and documentation</li>
+                        </ul>
+                    </div>
+                    <div id="resources">
+                        <h2 class="heavy_text pink_text">Developer Resources</h2>
+                        <p>Access tools, guides, and documentation to assist with development:</p>
+                        <ul>
+                            <a href="#">SDK Documentation</a>
+                            <a href="#">Modeling Guidelines</a>
+                            <a href="#">Avionics Development Kit</a>
+                            <a href="#">Community Forum</a>
+                        </ul>
+                    </div>
+                    <div id="contact">
+                        <h2 class="heavy_text light_blue">Contact Us</h2>
+                        <p>We'd love to hear from you! Reach out to us with questions, suggestions, or feedback:</p>
+                        <p>Email: <a href="mailto:info@skybornsimulations.com">info@skybornsimulations.com</a></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="top left-align">
+            <div class="center-align large-padding">
+                <h5 class="max center-align bottom margin">Skyborn</h5>
+                <a class="margin">
+                    <i>home</i>
+                    <div>Home</div>
+                </a>
+                <a class="margin">
+                    <i>code_blocks</i>
+                    <div>Developers</div>
+                </a>
+                <a class="margin">
+                    <i>map</i>
+                    <div>RoadMap</div>
+                </a>
+                <a class="margin" href="https://discord.gg/ugpDpjbDCG">
+                    <i class="border circle extra"><img class="responsive overlay_color" src="action.icon/discordClickIcon.png"></i>
+                    <div>Discord</div>
+                </a>
+            </div>
+        </footer>
+    </body>
 </html>
