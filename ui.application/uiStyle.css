@@ -18,7 +18,7 @@ body {
     text-align: center;
     scale: 80%; 
     position: relative;
-    top: -30px;
+    top: -10px;
    font-size: 38px;
 
 }
@@ -27,8 +27,8 @@ body {
 
     scale: 45%  ;
     position: absolute;
-    top:6%;
-    left:60% ;
+      bottom: -1rem;
+      right: 40rem;
 }
 
 .apptool:hover {
@@ -37,7 +37,7 @@ body {
 
 .headerButtons {
   position: relative;
-  bottom: 100px;
+     bottom: 35px;
      right: 110px;
 }
 
@@ -45,24 +45,30 @@ body {
     transition: 0.3;
     background-color: rgb(36, 36, 36);
     scale: 100%;
+    height: 6rem;
+
+    position: relative;
+      top: -1rem;
+      right: -1rem;
+      scale: 110%;
 }
 
 #roadmap {
 
-  position: absolute;
+  position: relative;
   top: 60%;
-   left: 22%;
-  width: 180px;
+   left: 13rem;
+  width: 150px;
   height: 30px; 
   color: rgb(234, 118, 134);
 }
 
 #journal {
 
-  position: absolute;
+  position: relative;
    top: 60%;
-   left: 12%;
-  width: 180px;       
+   left: 14rem;
+  width: 150px;       
   height: 30px;
   color: rgb(138, 143, 212); 
 }
@@ -109,29 +115,33 @@ body {
 
 
 #BannerImage {
+  
     transition: 0.1s;
     box-shadow: 0,0,200px rgba(31, 31, 31, 0.5) inset;
    position-anchor: 50% 50%;
    position: absolute;
       left: 15%;
-      top: 10%;
+      top: 130%;
       scale: 90%;
       border-radius: 40px;
    image-rendering: pixelated;
 
     box-shadow: 100px,0,200px,rgb(0, 0, 0);
+  
+    opacity: 0.7;
 
     
+
 }
 
 #mainTitle {
 
     position: absolute;
-      top: 20%;
+      top: 6rem;
       right: 64%;
       font-size: 40px;
         scale: 150%;
-      font-weight: 700;
+      font-weight: 600;
        font-style: normal;
       color: rgb(255, 255, 255);
 }
@@ -139,7 +149,7 @@ body {
 .bannerio2 {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
-    top: 32%;
+    top: 10rem;
     left: 25%;
     width: 30%;
     font-style:italic;
@@ -171,13 +181,17 @@ body {
 }
 
 
-#overlayGradient {
-  position: absolute;
-  top: 0;
-  left: 0;
+#gradientPosition {
+  width: 1920px;
+  height: 1000px;
+  background-image: linear-gradient(rgba(126, 126, 126, 0.1),rgb(34, 34, 34));
+  mix-blend-mode: multiply,0.1;
+}
 
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(31, 31, 31, 0.5));
-  mix-blend-mode: multiply;  
+.spaces {
+  margin-bottom: 25px;
+  position: relative;
+    
+  margin-top: 25px;
+
 }
