@@ -124,8 +124,6 @@ body {
     
 }
 
-
-
 #mainTitle {
 
     position: absolute;
@@ -139,7 +137,7 @@ body {
 }
 
 .bannerio2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
     top: 32%;
     left: 25%;
@@ -149,9 +147,6 @@ body {
   text-decoration: underline;
   scale: 110%;
 }
-
-
-
 
 
 .DownSection {
