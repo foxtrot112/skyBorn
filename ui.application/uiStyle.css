@@ -40,25 +40,28 @@
 
 body {
     transition: 0.1;
-    background-color: #2c2c2f;
+    background-color: #353535;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .light_purple {
-  color: rgb(164, 138, 212) !important; 
+  color: rgb(185, 147, 255) !important; 
+  text-decoration: underline;
 }
 
 .pink_text {
-  color: rgb(234, 118, 133) !important;
+  color: rgb(255, 134, 150) !important;
+  text-decoration: underline;
 }
 
 .light_green {
-  color: rgb(176, 221, 142) !important; 
+  color: rgb(199, 255, 156) !important;
+  text-decoration: underline; 
 }
 
 
 .overlay_color {
-  background-color: rgba(41, 41, 41, 0.75);
+  background-color: rgba(61, 61, 61, 0.75);
 }
 
 .heavy_text {
@@ -66,8 +69,9 @@ body {
 }
 
 #i5 {
-  font-size: 1.3rem;
-  font-weight: 100;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #c4c4c4;
 }
 #BannerImage1 {
   opacity: 0.7;
@@ -85,12 +89,13 @@ body {
 
 #o23 {
   font-family: "Plaster", serif;
+  color: rgb(205, 195, 134);
   scale: 140%;
   font-weight: 200;
 }
 .i331 {
   font-family: monospace;
-  background-color:rgb(213, 198, 113);
+  background-color:rgb(205, 195, 134);
   color: #313033;
   border-radius: 8px;
    font-weight: 500;

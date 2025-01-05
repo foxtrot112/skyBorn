@@ -81,8 +81,8 @@ body {
   .icon1 {
     position:absolute;
      top:-30rem;
-  
-  scale: 5%;
+      object-position: center;
+     scale: 5%;
 
   }
 
@@ -92,5 +92,69 @@ body {
          font-weight: 200;
      position: relative;
         top:23rem;   
+
+        letter-spacing: 1rem;
+
+        background: linear-gradient(45deg, hsl(221, 100%, 55%) 0%, hsl(256, 100%, 84%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
        
   }
+
+  .welcomeText {
+   
+      color: #d5d5d5;
+
+      font-size: larger;
+      font-weight: 100;
+        width: 40rem;
+       position: relative;
+         top: 4rem;
+         left: 40rem;
+       
+  }
+
+  .text1 {
+    color: #d5d5d5;
+
+    font-size: larger;
+    font-weight: 100;
+      width: 40rem;
+     position: relative;
+       top: 27rem;
+       left: 44rem;
+  }
+
+  .llh {
+    position: relative;
+      left: 5rem;
+
+      user-select: none;
+  }
+   
+
+  /*Image-track-system*/
+
+   
+
+#image-track {
+  display: flex ;
+   gap : 5vmin;
+   position:absolute;
+     left: 50%;
+      top: 80rem;
+      transform: translate(0%,-50%);
+      user-select: none; /* -- Prevent image highlighting -- */
+    }
+    
+    #image-track > .image {
+      border-radius: 1rem;
+      image-rendering:auto;
+      width: 40vmin;
+      height: 56vmin;
+      object-fit: cover;
+      object-position: 100% center;
+    }
+   
+
