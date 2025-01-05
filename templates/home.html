@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block content %}
+<hr class="cut">
+<div class="small-space"></div>
+<article class="no-padding drop-shadow">
+    <img class="responsive xlarge" src="{{ url_for('static', filename='img/banner.png') }}">
+    <div class="absolute bottom left right padding bottom-shadow white-text custom_size">
+    <h3 class="bold">Work With Us</h3>
+      <nav>
+        <div class="max">
+            <p class="responsive small text_smaller">
+                Welcome to our Citation III project page! We're crafting a high-fidelity 3D model, meticulously detailing every aspect from fuselage to landing gear. Join us in our journey to create this exceptional digital representation of aviation excellence.
+            </p>
+        </div>
+      </nav>
+    </div>
+  </article>
+
+<section>
+    <div>
+        <div id="projects">
+            <h2 class="heavy_text light_purple">Our Projects</h2>
+            <p>Our flagship project, the Citation III for MSFS, is a meticulously crafted simulation featuring detailed avionics, realistic aerodynamics, and stunning visuals.</p>
+            <ul>
+                <li>Realistic 3D cockpit and exterior model</li>
+                <li>Custom flight dynamics</li>
+                <li>High-fidelity avionics and systems</li>
+                <li>Interactive tutorials and documentation</li>
+            </ul>
+        </div>
+        <div id="resources">
+            <h2 class="heavy_text pink_text">Developer Resources</h2>
+            <p>Access tools, guides, and documentation to assist with development:</p>
+            <ul>
+                <a href="#">SDK Documentation</a>
+                <a href="#">Modeling Guidelines</a>
+                <a href="#">Avionics Development Kit</a>
+                <a href="#">Community Forum</a>
+            </ul>
+        </div>
+        <div id="contact">
+            <h2 class="heavy_text light_blue">Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us with questions, suggestions, or feedback:</p>
+            <p>Email: <a href="mailto:info@skybornsimulations.com">info@skybornsimulations.com</a></p>
+        </div>
+    </div>
+</section>
+{% endblock %}

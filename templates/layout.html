@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Skyborn {% block title %}{% endblock %}</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+        
+        <link href="https://cdn.jsdelivr.net/npm/beercss@3.8.0/dist/cdn/beer.min.css" rel="stylesheet" />
+        <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.8.0/dist/cdn/beer.min.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/uiStyle.css') }}" />
+    </head>
+    <body class="dark">
+        <nav class="top left-align">
+            <h5 class="max left-align heavy_text">Skyborn</h5>
+            <a class="margin" href="{{ url_for('home') }}"><i>home</i>Home</a>
+            <a class="margin" href="{{ url_for('news') }}"><i>newspaper</i>News</a>
+            <a class="margin" href="{{ url_for('roadmap') }}"><i>map</i>RoadMap</a>
+            <a class="margin" href="https://discord.gg/ugpDpjbDCG"><i class="circle extra"><img class="responsive" src="{{ url_for('static', filename='img/discordClickIcon.png') }}"></i>Discord</a>
+        </nav>
+        <main class="responsive large-padding">
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer class="top left-align">
+            <div class="center-align large-padding">
+                <h5 class="max center-align bottom margin heavy_text">Skyborn</h5>
+                <a href="https://discord.gg/ugpDpjbDCG" target="_blank">
+                    <i class="circle extra"><img class="responsive" src="{{ url_for('static', filename='img/discordClickIcon.png') }}"></i>
+                    <div>&nbsp;Discord</div>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
